@@ -6,13 +6,195 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Malik Duisebayev</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles/index.css">
 </head>
 
 <body>
     <div id="app">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner-top">
+                    <h1>MD</h1>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a class="nav__link" href="#">ГЛАВНАЯ</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#about">ОБ АВТОРЕ</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#">РАБОТЫ</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#">ПРОЦЕСС</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#">КОНТАКТЫ</a></li>
+                        </ul>
+                    </nav>
+                    <div class="burger-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="header__inner-bottom">
+                    <img src="./images/header/frame.png" alt="frame">
+                    <div class="header__design">
+                        <h2>Дизайн и верстка</h2>
+                        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+                            является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                        <a href="mailto:malikduysebaev@mail.ru" class="btn">НАПИСАТЬ МНЕ</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="about" id="about">
+                <div class="container">
+                    <div class="about__inner">
+                        <div class="about__content">
+                            <h2 class="title">Обо мне</h2>
+                            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+                                является
+                                стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="project">
+                <div class="container">
+                    <div class="project__inner">
+                        <ul>
+                            <li>
+                                <img src="./images/project/Group.png" alt="book">
+                                <div>
+                                    <p>40+<span>проектов</span></p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="./images/project/Group.png" alt="book">
+                                <div>
+                                    <p>40+<span>проектов</span></p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="./images/project/Group.png" alt="book">
+                                <div>
+                                    <p>40+<span>проектов</span></p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="./images/project/Group.png" alt="book">
+                                <div>
+                                    <p>40+<span>проектов</span></p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="./images/project/Group.png" alt="book">
+                                <div>
+                                    <p>40+<span>проектов</span></p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="./images/project/Group.png" alt="book">
+                                <div>
+                                    <p>40+<span>проектов</span></p>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="skills">
+                <div class="container">
+                    <div class="skills__inner">
+                        <div class="skill">
+                            <h2 class="title">Мои навыки</h2>
+                            <ul>
+                                <li>
+                                    HTML
+                                    <div class="line">
+                                        <span>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    CSS
+                                    <div class="line">
+                                        <span>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    Java Script
+                                    <div class="line">
+                                        <span>
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <img src="./images/skills/me — копия.jpeg" alt="Malik Duisebayev">
+                    </div>
+                </div>
+
+            </section>
+            <section class="gallery">
+                <div class="gallery__inner">
+                    <ul>
+                        <li><img src="./images/gallery/1.avif" alt=""></li>
+                        <li><img src="./images/gallery/2.avif" alt=""></li>
+                        <li><img src="./images/gallery/3.avif" alt=""></li>
+                        <li><img src="./images/gallery/4.avif" alt=""></li>
+                        <li><img src="./images/gallery/5.avif" alt=""></li>
+                        <li><img src="./images/gallery/6.avif" alt=""></li>
+                        <li><img src="./images/gallery/7.avif" alt=""></li>
+                        <li><img src="./images/gallery/8.avif" alt=""></li>
+
+                    </ul>
+                </div>
+            </section>
+            <section class="contacts">
+                <div class="container">
+                    <div class="contacts__inner">
+                        <div class="box">
+                            <h2 class="title">Хотите веб-сайт?</h2>
+                            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+                                является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                            <form action="#">
+                                <div>
+                                    <input type="text" placeholder="Ваше имя" required>
+                                    <input type="email" placeholder="Ваш e-mail" required>
+                                </div>
+                                <div>
+                                    <textarea name="" id="" cols="30" rows="6" required
+                                        style="resize: none;">Сообщение</textarea>
+                                </div>
+
+                                <div class="contacts__button">
+                                    <button class="btn">ОТПРАВИТЬ</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <h3>Малик Дуйсебаев
+                        <span>(с) 2018. Все права защищены.</span>
+                    </h3>
+                    <div>
+                        <ul>
+                            <li><a href=""><i class='bx bxl-telegram'></i></a></li>
+                            <li><a href=""><i class='bx bxl-whatsapp'></i></a></li>
+                            <li><a href=""><i class='bx bxl-instagram'></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
     </div>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
 </body>
 
 </html>
